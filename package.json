@@ -1,16 +1,19 @@
 {
-  "name": "@aptos-pay/monorepo",
-  "version": "1.0.0",
-  "private": true,
+  "name": "@aptos-pay/npm-package",
+  "version": "1.0.7",
+  "types": "index.d.ts",
+  "description": "Payments protocol for Aptos",
+  "main": "index.js",
   "scripts": {
-    "dev": "yarn workspace @aptos-pay/core-protocol dev",
-    "build": "yarn workspace @aptos-pay/core-protocol build",
-    "shopify-dev": "yarn workspace @aptos-pay/shopify-app dev",
-    "link-dev": "yarn workspace @aptos-pay/npm-package link && yarn workspace @aptos-pay/core-protocol link aptos-pay"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "workspaces": {
-    "packages": [
-      "./*"
-    ]
+  "author": "AptosPayTeam",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "aptos": "^1.19.0",
+    "crypto": "^1.0.1"
   }
 }

@@ -1,4 +1,5 @@
 node_modules
+.DS_Store
 
 /.cache
 /build
@@ -13,3 +14,4 @@ database.sqlite
 package-lock.json
 yarn.lock
 .vscode
+.DS_Store

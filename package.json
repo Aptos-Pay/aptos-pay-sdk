@@ -1,5 +1,5 @@
 {
-  "name": "@aptos-pay/npm-package",
+  "name": "aptos-pay-sdk",
   "version": "1.0.7",
   "types": "index.d.ts",
   "description": "Payments protocol for Aptos",
